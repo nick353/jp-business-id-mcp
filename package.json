@@ -1,0 +1,9 @@
+{
+  "name": "jp-business-id-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server that validates Japanese corporate numbers (法人番号) and qualified invoice registration numbers (T + 13 digits). No API key.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --import tsx --test test/*.test.ts", "dev": "wrangler dev", "deploy": "wrangler deploy" }
+}

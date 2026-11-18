@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nick353/jp-business-id",
+  "title": "Japan Business ID",
+  "description": "Validate Japanese invoice registration numbers (T+13) and corporate numbers. No API key.",
+  "version": "0.1.0",
+  "repository": { "url": "https://github.com/nick353/jp-business-id-mcp", "source": "github" },
+  "websiteUrl": "https://github.com/nick353/jp-business-id-mcp",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://jp-business-id-mcp.nichika2000823.workers.dev/mcp" }
+  ]
+}
